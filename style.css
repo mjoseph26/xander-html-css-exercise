@@ -43,3 +43,48 @@ a:hover{
     text-decoration: none;
     color:var(--hotmag);
 }
+
+/* Intro */
+#intro {
+    padding: 0 2rem 10rem 2rem;
+}
+
+#intro p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#intro .name {
+    font-family: var(--mono);
+}
+
+.name span{
+    font-family: var(--sans);
+    font-size: 4rem;
+    color: var(--aqua);
+    display:block;
+    font-weight:bold;
+}
+
+footer{
+  text-align:center;
+  background-color:var(--plum);
+  font-size:1.1rem;
+}
+
+footer section{
+  padding-top: 2rem;
+  width:18rem;
+  margin:0 auto;
+}
+
+footer section .c_heading{
+  font-weight:lbolder;
+}
+
+footer section > a{
+  color:var(--aqua);
+  text-decoration: underline;
+  margin-top: 2rem;
+}
+
