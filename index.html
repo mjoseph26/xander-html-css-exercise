@@ -4,10 +4,33 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Style a HTML Page</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <nav>
+      <ul class="navlinks">
+        <li><a href="#"><i class="fas fa-code" aria-hidden="true"></i> Mathew Joseph</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            <span class="sr-only">LinkedIn</span>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <i class="fa-brands fa-square-github" aria-hidden="true"></i>
+            <span class="sr-only">Github</span>
+          </a>
+        </li>
+        <li><a href="#" class="call-to-action">Resume</a></li>
+      </ul>
+    </nav>
+
     <section id="intro">
       <p class="name">Hi, my name is <span>Mathew Joseph</span></p> 
       <h2>I design and develop full stack applications.</h2> 
@@ -19,14 +42,38 @@
           Currently, I'm working as a Software Engineering Consultant at <a href="https://www.xandertalent.com/">Xander Talent.</a>
       </p>
     </section>
+    <section class="contact">
+      <h3>Contact Me</h3>
+      <p>I am always interested in learning about 
+      new technologies and building cool projects.
+      </p>
+      <a>Email Me</a>
+    </section>
     <footer>
-      <section>
-        <h3 class="c_heading">Contact Me</h3>
-        <p>I am always interested in learning about 
-        new technologies and building cool projects.
-        </p>
-        <a>Email Me</a>
-      </section>
+      <p>Mathew Joseph . Software Engineer</p>
+      <nav>
+        <ul>
+          <li>
+            <a href="#">
+              <span class="sr-only">LinkedIn</span>
+              <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="sr-only">Github</span>
+              <i class="fa-brands fa-square-github" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="sr-only">Mail</span>
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <p><small>© Mathew Joseph 2023. All Rights Reserved.</small></p>
     </footer>
   </body>
 </html>
