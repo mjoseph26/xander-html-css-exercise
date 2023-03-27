@@ -226,7 +226,7 @@ section.contact p > a{
 
 /* About */
 .about{
-  padding:4rem 1rem;
+  padding: 3rem 1rem 0 1rem;
   background-color: var(--plum);
 }
 
@@ -323,10 +323,6 @@ section.contact p > a{
 
   #projects ul{
     justify-content:flex-end;
-  }
-
-  .text-reversed h4{
-    margin-top: 4.5rem;
   }
 }
 
